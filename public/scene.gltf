@@ -1,0 +1,256 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 60320,
+      "max": [
+        1.8939100503921509,
+        1.8550430536270142,
+        10.937746047973633
+      ],
+      "min": [
+        -2.1012580394744873,
+        -2.197213888168335,
+        6.9539308547973633
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 723840,
+      "componentType": 5126,
+      "count": 60320,
+      "max": [
+        0.99992620944976807,
+        0.99988847970962524,
+        0.99990284442901611
+      ],
+      "min": [
+        -0.99998098611831665,
+        -0.99998193979263306,
+        -0.99983322620391846
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 60320,
+      "max": [
+        0.9967159628868103,
+        0.97468996047973633,
+        0.99999547004699707,
+        1
+      ],
+      "min": [
+        -0.99997353553771973,
+        -0.99993729591369629,
+        -0.92156416177749634,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 60320,
+      "max": [
+        0.98683398962020874,
+        0.99683701992034912
+      ],
+      "min": [
+        0.0026169999036937952,
+        0.0036780000664293766
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 354180,
+      "max": [
+        60319
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Robob3ar (https://sketchfab.com/robobear)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/a68645b7e7fa43f6896b1858a564271d",
+      "title": "rock"
+    },
+    "generator": "Sketchfab-3.20.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1416720,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 482560,
+      "byteOffset": 1416720,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1447680,
+      "byteOffset": 1899280,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 965120,
+      "byteOffset": 3346960,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4312080,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/material_0_diffuse.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.76000000000000001,
+            0.76000000000000001,
+            0.76000000000000001,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "glossinessFactor": 0.41999999999999998,
+          "specularFactor": [
+            0.040000000000000001,
+            0.040000000000000001,
+            0.040000000000000001
+          ]
+        }
+      },
+      "name": "material_0"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.6703026294708252,
+        0.086997471749782562,
+        -0.73697066307067871,
+        0,
+        -0.12870882451534271,
+        0.99168241024017334,
+        0,
+        0,
+        0.73084086179733276,
+        0.094854630529880524,
+        0.67592471837997437,
+        0,
+        -6.5941824913024902,
+        -0.8409574031829834,
+        2.8227190971374512,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "model.obj.cleaner"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
